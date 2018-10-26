@@ -9,7 +9,7 @@ docker build -t katturaja/docker-node-dynatrace-example .
 
 2. Run your docker image - example
 ```
-docker run -d --name katturaja/docker-node-dynatrace-example -p 3000:3000/tcp -it katturaja/docker-node-dynatrace-example
+docker run -d --name docker-node-dynatrace-example -p 3000:3000/tcp -it katturaja/docker-node-dynatrace-example
 ```
 
 3. Debug your docker image - example
